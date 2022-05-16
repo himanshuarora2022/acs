@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome </title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .form {
+            border-radius: 5%;
+            height: 60vh;
+            width: 50vw;
+            background-color: aqua;
+            position: absolute;
+            top: 25vh;
+            right: 50vh;
+            left: auto;
+            background-image: linear-gradient(-90deg, #CF77F3 0%, #009BFF 47%, #2AC9DB 100%);
+            margin: 2vh;
+            padding: 2vw;
+        }
+
+        .form {
+            background-color: black;
+        }
+
+        #username[type="input"] {
+            color: black;
+            background-color: black;
+        }
+
+        #username input {
+            background-color: black;
+        }
+
+        .submit {
+            background-color: #009BFF;
+        }
+
+
+        #username {
+            color: black;
+        }
+
+        header {
+            height: 10vh;
+            background-color: teal;
+        }
+
+        #logheading {
+            color: wheat;
+            font-size: 4rem;
+            position: absolute;
+            top: -3vh;
+            left: 19vw;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #username {
+            margin: 2vh;
+            padding: 2vh;
+        }
+
+        #password {
+            margin: 2vh;
+            padding: 2vh;
+        }
+
+        .forme {
+            position: absolute;
+            top: 16vh;
+            left: 18vw;
+        }
+
+        .submit {
+            font-size: 30px;
+            margin: auto;
+            padding: 2px;
+            width: 90%;
+            background-image: linear-gradient(-90deg, #CF77F3 0%, #009BFF 47%, #2AC9DB 100%);
+            position: absolute;
+            left: 10%;
+            top: 110%;
+            border-radius: 30%;
+        }
+
+        @media(max-width:300px){
+            body {
+                background-color: #009BFF;
+            }
+
+            .form {
+                border-radius: 5%;
+                height: 60vh;
+                width: 80vw;
+                background-color: aqua;
+                position: absolute;
+                top: 25vh;
+                right: 0vw;
+                /* right: 50vh; */
+                /* left: auto; */
+                background-image: linear-gradient(-90deg, #CF77F3 0%, #009BFF 47%, #2AC9DB 100%);
+                margin: 2vh;
+            }
+        }
+        @media(max-width:500px)  {
+            body {
+                background-color:brown;
+            }
+
+            .form {
+                border-radius: 5%;
+                height: 60vh;
+                width: 80vw;
+                background-color: aqua;
+                position: absolute;
+                top: 25vh;
+                right: 0vw;
+                /* right: 50vh; */
+                /* left: auto; */
+                background-image: linear-gradient(-90deg, #CF77F3 0%, #009BFF 47%, #2AC9DB 100%);
+                margin: 2vh;
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        header
+    </header>
+    <div class="form">
+        <h1 id="logheading">LOGIN</h1>
+        <form action="baack.js" method="post" enctype="text/plain" name="RegForm">
+            <div class="forme">
+
+                <hr color="black">
+                <label for="username"></label><input type="text" placeholder="Enter Your username:" id="username"
+                    name="username"><br>
+                <label for="password"></label><input type="password" placeholder="Enter Your PASSWORD:" id="password"
+                    name="password"><br>
+                <hr color="black"> <button class="submit">LOGIN</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

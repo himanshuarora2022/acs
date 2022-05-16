@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome To Online Document Management And Verification Sytsem</title>
+  <!-- <link rel="stylesheet" href="/sih.css">
+     -->
+  <!-- external css dont know how to link on github -->
+  <style>
+    footer{color: wheat;}
+    footer a{color: aqua;}
+    .footerlink li{padding:1.6%}
+    #social_govt {
+      position: absolute;
+      right: 0%;
+
+      top: 2%;
+      border-radius: 20%;
+    }
+
+    header {
+      width: 100%;
+      /* height: 1%; */
+      display: inline-block;
+    }
+
+    /* body{background-color: black;
+color: white;} */
+    #divya_govt {
+      /* filter: invert(100%);                                                                                                                                                                                                                                                                             */
+      position: absolute;
+      left: 0%;
+      top: 8%;
+      zoom: 200%;
+    }
+
+    .header {
+      margin: 0%;
+      height: 3px;
+    }
+
+    #govheader {
+      margin: auto;
+      position: absolute;
+      left: 40%;
+      top: 15%;
+    }
+
+    /* zoom: 1002%;} */
+
+    #login {
+      border: 2px solid pink;
+      position: absolute;
+      top: 50%;
+      right: 10%;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Style the body */
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+
+    /* Header/logo Title */
+    .header {
+      padding: 80px;
+      text-align: center;
+      /* background: #1abc9c;
+    color: white; */
+    }
+
+    /* Increase the font size of the heading */
+    .header h1 {
+      font-size: 40px;
+    }
+
+    /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+      position: sticky;
+      position: -webkit-sticky;
+      top: 0;
+      height: 20%;
+    }
+
+    /* Style the navigation bar links */
+    .navbar a {
+      float: left;
+      display: block;
+      color: red;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+
+    /* Right-aligned link */
+    .navbar a.right {
+      float: right;
+    }
+
+    /* Change color on hover */
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* Active/current link */
+    .navbar a.active {
+      background-color: #666;
+      color: white;
+    }
+
+    /* Column container */
+    .row {
+      display: -ms-flexbox;
+      /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap;
+      /* IE10 */
+      flex-wrap: wrap;
+    }
+
+    /* Create two unequal columns that sits next to each other */
+    /* Sidebar/left column */
+    .side {
+      -ms-flex: 30%;
+      /* IE10 */
+      flex: 30%;
+      background-color: white;
+      padding: 20px;
+      border: 2px solid black;
+    }
+
+    /* Main column */
+    .main {
+      border: 2px solid black;
+      -ms-flex: 70%;
+      /* IE10 */
+      flex: 70%;
+      background-color: white;
+      padding: 20px;
+    }
+
+    /* Fake image, just for this example */
+    .fakeimg {
+      background-color: teal;
+      width: 100%;
+      padding: 20px;
+    }
+
+    #social_govt {
+      position: absolute;
+      right: 0%;
+      top: 7.2%;
+      zoom: 260%;
+      /* height: 25%;
+      width: 25%; */
+    }
+
+    .row li {
+      display: flex;
+      flex-direction: row;
+    }
+
+    /* filter: invert(100%);
+    }
+
+    #divya_govt {
+      filter: invert(100%);
+    } */
+
+    /* Footer */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #2e3550;
+    }
+
+    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 700px) {
+      .row {
+        flex-direction: column;
+      }
+    }
+
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+      .navbar a {
+        float: none;
+        width: 100%;
+      }
+    }
+
+    .lineghum {
+      width: 100%;
+      height: 10%;
+      background-color: blue;
+      color: white;
+      border: 2px solid black;
+      float: none;
+    }
+
+    #anti {
+      height: 20%;
+      width: 20%;
+      position: absolute;
+      left: -3%;
+      top: 13%;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="lineghum">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, eum?</p>
+    </div>
+
+    <div class="header">
+      <h3>Department of Empowerment of Persons with Disabilities(Divyangjan), Ministry of Social Justice and
+        Empowerment</h3>
+      <p>A <b>responsive</b> INTEGRATED WEB-BASED OFFICE DOCUMENT MANAGEMENT SYSTEM </p>
+      <h2 id="govheader">GOVERNMENT OF INDIA</h2>
+
+      <img src="https://disabilityaffairs.gov.in/content/image/logo.png" width="200px" id="divya_govt"
+        alt="Department of Empowerment of Persons with Disabilities(Divyangjan)">
+      <img src="https://disabilityaffairs.gov.in/content/image/amrit.png" id="anti" style=""> <img
+        src="https://th.bing.com/th/id/R.9cd4dd24685e81c5d3cbc557efc2d6c3?rik=icS624xJzv3gpw&riu=http%3a%2f%2folsbbsr.org%2fwp-content%2fuploads%2f2017%2f01%2fmsj_logo1.jpg&ehk=xHq%2bPdZAYC0P8YeHMaN2MgpYaEzIVkARPsdFubLqnJg%3d&risl=&pid=ImgRaw&r=0"
+        alt="Ministry of Social Justice and Empowerment" id="social_govt" width="110px">
+    </div>
+
+
+  </header>
+  <section>
+
+  </section>
+
+  <div class="navbar">
+    <a href="#" class="active">Home</a>
+    <a href="#">PROFILES</a>
+    <a href="#">OFFICERS</a>
+    <a href="/home.html">HOME PAGE</a>
+    <a href="#" class="right">Link</a>
+    <a href="login.html">LOGIN</a>
+    <a href="/registration.html">REGISTER</a>
+    <!-- <a href="/register.html">register</a> -->
+  </div>
+
+  <div class="row">
+    <div class="side">
+      <h2>Dr. Virendra Kumar (Minister for Social Justice and Empowerment</h2>
+      <h5>RSS worker since childhood; Branch Head, RSS; Actively participated in the Total Revolution movement
+        started by Lok Nayak Jayaprakash Narayan in 1975; went to Sagar and Jabalpur jails for 16 months under
+        Maintenance of Internal Security Act (MISA) in protest against imposition of Emergency; started movement
+        for solving the problems faced by students and opened library for their assistance; joined politics in
+        1982 and since then actively associated with the National, State, local movements and programmes
+        initiated by B.J.P.</h5>
+      <div class="http://disabilityaffairs.gov.in/upload/photogallery/60ee6f9beb341515.jpg" style="height:200px;">
+        Image</div>
+      <p>The Department of Empowerment of Persons with Disabilities in the Ministry of Social Justice and
+        Empowerment facilitates empowerment of the persons with disabilities, who as per Census 2011 are 2.68
+        crore and are 2.21 percent of the total population of the Country. These include persons with Visual,
+        Hearing, Speech and Locomotive disability, Mental Retardation, Mental Illness, Multiple Disability and
+        any other disabilities.</p>
+      <h3>Here to help all</h3>
+      <p>Contact Details
+        24362127 (Off.)
+        Room No. 11 (B-I), Antyodaya Bhawan</p>
+      <div class="fakeimg" style="height:60px;">Image</div><br>
+      <div class="fakeimg" style="height:60px;">Image</div><br>
+      <div class="fakeimg" style="height:60px;">Image</div>
+    </div>
+    <div class="main">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        ullamco.</p>
+      <br>
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        ullamco.</p>
+    </div>
+  </div>
+
+    <div class="footer" >
+      <!-- <h2>Footer</h2> -->
+      <footer class="">
+        <div class="">
+          <div class=""">
+            <div class="" >
+              <ul type="none" class="footerlink" style="display: flex;flex-direction: row; ">
+  
+                <li><a href="https://disabilityaffairs.gov.in/content/page/sitemap.php">Sitemap</a></li>
+  
+                <li><a href="https://disabilityaffairs.gov.in/content/page/terms-condition.php">Terms & Condition</a></li>
+  
+                <li><a href="https://disabilityaffairs.gov.in/content/page/disclaimer.php">Disclaimer</a></li>
+  
+                <li><a href="https://disabilityaffairs.gov.in/content/page/help.php">Help</a></li>
+  
+                <li><a href="https://disabilityaffairs.gov.in/content/page/feedback.php">Feedback</a></li>
+  
+                <li><a href="https://disabilityaffairs.gov.in/content/page/archive.php">Archive</a></li>
+  
+                <li><a href="https://disabilityaffairs.gov.in/content/page/copyright-policy.php">Copyright Policy</a></li>
+  
+                <li><a href="https://disabilityaffairs.gov.in/content/page/website-policy.php">Website Policy</a></li>
+  
+                <li><a href="https://disabilityaffairs.gov.in/content/page/parliament-questions.php">Parliament
+                    Questions</a></li>
+  
+                <li><a href="https://disabilityaffairs.gov.in/content/page/privacy-policy.php">Privacy Policy</a></li>
+  
+                <li><a href="https://disabilityaffairs.gov.in/content/page/accessibility-statement.php">Accessibility
+                    statement</a></li>
+  
+                <li><a href="https://disabilityaffairs.gov.in/content/page/hyperlinking-policy.php">Hyperlinking
+                    Policy</a></li>
+  
+              </ul>
+            </div>
+          </div>
+      
+  
+        </div>
+  
+  
+        
+        <div class="datafoot">
+          <p>Website Content Owned by Department of Empowerment of Persons with Disabilities,<a
+              href="http://socialjustice.nic.in/" style="color:yellow;">Ministry of Social Justice</a></p>
+          <p>Hosted by<a href="" style="color:yellow;"> PIET </a></p>
+          <p>
+  
+  
+          </p>
+        </div>
+  
+  
+    </div>
+    </div>
+  
+</body>
+
+</html>
