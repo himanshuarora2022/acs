@@ -1,4 +1,7 @@
-.header{border: 2px solid black;}
+.header {
+  border: 2px solid black;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body {
@@ -30,7 +33,7 @@ body {
 }
 
 .left {
-    border: 2px solid black;
+  border: 2px solid black;
   float: left;
   width: 180px;
   margin: 0;
@@ -61,7 +64,7 @@ li a {
 li a.active {
   background-color: #84e4e2;
   color: white;
-  border-radius: 22px ;
+  border-radius: 22px;
 }
 
 li a:hover:not(.active) {
@@ -75,23 +78,45 @@ li a:hover:not(.active) {
   color: white;
   text-align: center;
 }
-.btn{color: wheat;
-background-color: black;
-height: 3.6em;
-border-radius: 100px;
-width: 10em;}
-footer{color: wheat;}
-    footer a{color: aqua;}
-    .footerlink li{padding:.6%}
-    .footer{
-      padding: 20px;
-      text-align: center;
-      background: #2e3550;
-    }
-    .header{
-      background-color:#2e3550 
-    }
-    .navbar a{ padding:2em;
-      color: aqua;
-      text-decoration: none;
+
+.btn {
+  color: wheat;
+  background-color: black;
+  height: 3.6em;
+  border-radius: 100px;
+  width: 10em;
+}
+
+footer {
+  color: wheat;
+}
+
+footer a {
+  color: aqua;
+}
+
+.footerlink li {
+  padding: .6%
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #2e3550;
+}
+
+.header {
+  background-color: #2e3550
+}
+
+.navbar a {
+  padding: 2em;
+  color: aqua;
+  text-decoration: none;
+}
+
+
+    /* zoom: 260%;
+
+      }
     }
